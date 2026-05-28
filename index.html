@@ -1,0 +1,1425 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Prundu Residence — Apartamente noi în Pitești</title>
+<meta name="description" content="Ansamblu rezidențial pe Str. Cornel Chiriac 20, Pitești. Două blocuri P+4, garsoniere și apartamente cu două camere. Predare estimată mai 2027." />
+
+<meta property="og:title" content="Prundu Residence — Apartamente noi în Pitești" />
+<meta property="og:description" content="Două blocuri P+4 pe Cornel Chiriac 20, Pitești. Garsoniere și apartamente cu două camere. Predare estimată mai 2027." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="renders/render-hero-2.jpg" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Prundu Residence",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Str. Cornel Chiriac nr. 20",
+    "addressLocality": "Pitești",
+    "addressRegion": "Argeș",
+    "addressCountry": "RO"
+  },
+  "telephone": "+40751234567",
+  "email": "Vanzari@prunduresidence.ro"
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+<script>
+  window.__TWEAKS = /*EDITMODE-BEGIN*/{
+    "accent": "#9d7b57",
+    "heroImage": "renders/render-hero-2.jpg",
+    "scrollAnim": true
+  }/*EDITMODE-END*/;
+</script>
+
+<style>
+  :root {
+    --bg: #f5f0e8;
+    --paper: #fbf8f2;
+    --text: #202020;
+    --muted: #6e675e;
+    --line: rgba(32, 32, 32, .12);
+    --accent: #9d7b57;
+    --accent-dark: #7a5c3c;
+    --shadow: 0 24px 70px rgba(62, 48, 31, .12);
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  ::selection { background: var(--text); color: var(--paper); }
+  img { max-width: 100%; display: block; }
+  a { color: inherit; text-decoration: none; }
+  button { font: inherit; cursor: pointer; }
+
+  .page { background: linear-gradient(180deg, #fbf8f2 0%, #f4eee5 55%, #f7f3ed 100%); }
+
+  /* ============ NAVBAR ============ */
+  .navbar {
+    height: 82px;
+    padding: 0 5.8vw;
+    display: flex;
+    align-items: center;
+    gap: clamp(20px, 3vw, 40px);
+    background: rgba(251, 248, 242, .94);
+    backdrop-filter: saturate(140%) blur(14px);
+    -webkit-backdrop-filter: saturate(140%) blur(14px);
+    border-bottom: 1px solid rgba(36, 31, 26, .07);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex: none;
+  }
+  .brand-mark {
+    width: 52px;
+    height: 52px;
+    border: 1px solid rgba(32, 32, 32, .55);
+    display: grid;
+    place-items: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 26px;
+    background: rgba(255, 255, 255, .38);
+    line-height: 1;
+    color: var(--text);
+  }
+  .brand-name {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 26px;
+    letter-spacing: .08em;
+    line-height: .95;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .brand-sub {
+    margin-top: 8px;
+    font-size: 13px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: #38332e;
+  }
+  .nav-links {
+    display: flex;
+    align-items: center;
+    gap: clamp(20px, 2.6vw, 40px);
+    font-size: 15px;
+    flex: 1;
+    justify-content: center;
+  }
+  .nav-links a {
+    color: #242424;
+    white-space: nowrap;
+    transition: color .2s;
+  }
+  .nav-links a:hover { color: var(--accent-dark); }
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex: none;
+  }
+  .phone {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14.5px;
+    white-space: nowrap;
+    color: #242424;
+    transition: color .2s;
+  }
+  .phone:hover { color: var(--accent-dark); }
+  .phone svg { width: 16px; height: 16px; color: var(--accent-dark); }
+  .nav-cta {
+    border: 0;
+    padding: 13px 22px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 14.5px;
+    border-radius: 7px;
+    box-shadow: 0 10px 28px rgba(101, 75, 45, .16);
+    transition: background .2s, transform .2s;
+    white-space: nowrap;
+  }
+  .nav-cta:hover { background: var(--accent-dark); }
+
+  /* ============ HERO ============ */
+  .hero {
+    position: relative;
+    min-height: 548px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-left: 5.8vw;
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,
+      rgba(248, 244, 238, 1) 0%,
+      rgba(248, 244, 238, .96) 21%,
+      rgba(248, 244, 238, .66) 39%,
+      rgba(248, 244, 238, .08) 59%,
+      rgba(248, 244, 238, 0) 100%
+    );
+    z-index: 2;
+    pointer-events: none;
+  }
+  .hero-bg {
+    position: absolute;
+    inset: 0 0 0 auto;
+    width: 72vw;
+    z-index: 1;
+    overflow: hidden;
+  }
+  .hero-bg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center right;
+    display: block;
+  }
+  .hero-copy {
+    position: relative;
+    z-index: 3;
+    padding-top: 92px;
+    padding-bottom: 70px;
+    max-width: 500px;
+  }
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    color: var(--accent-dark);
+    font-weight: 600;
+    margin-bottom: 28px;
+  }
+  h1 {
+    margin: 0;
+    font-size: clamp(40px, 3.8vw, 58px);
+    line-height: 1.14;
+    letter-spacing: -.05em;
+    font-weight: 500;
+    max-width: 560px;
+  }
+  .hero-text {
+    margin: 25px 0 0;
+    max-width: 410px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #292929;
+    letter-spacing: -.01em;
+  }
+  .hero-actions {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    margin-top: 31px;
+    flex-wrap: wrap;
+  }
+  .btn {
+    height: 48px;
+    padding: 0 22px;
+    border-radius: 7px;
+    font-size: 14.5px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-decoration: none;
+    transition: background .2s, border-color .2s, color .2s, transform .15s;
+    white-space: nowrap;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: #fff;
+    box-shadow: 0 12px 26px rgba(113, 84, 51, .19);
+  }
+  .btn-primary:hover { background: var(--accent-dark); }
+  .btn-secondary {
+    color: #232323;
+    background: rgba(255, 255, 255, .34);
+    border-color: rgba(36, 31, 26, .26);
+  }
+  .btn-secondary:hover { background: rgba(255, 255, 255, .55); border-color: rgba(36, 31, 26, .45); }
+
+  /* ============ FACTS ============ */
+  .facts {
+    position: relative;
+    z-index: 5;
+    margin: -34px auto 0;
+    padding: 0;
+    width: min(88.5vw, 1360px);
+    background: rgba(251, 248, 243, .92);
+    border: 1px solid rgba(36, 31, 26, .06);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+  }
+  .fact {
+    padding: 22px 18px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    position: relative;
+    min-width: 0;
+  }
+  .fact:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 20px;
+    bottom: 20px;
+    width: 1px;
+    background: var(--line);
+  }
+  .fact-icon {
+    width: 26px; height: 26px;
+    flex: none;
+    color: var(--text);
+  }
+  .fact-icon svg { width: 100%; height: 100%; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+  .fact-text { min-width: 0; }
+  .fact-title { font-size: 14px; font-weight: 600; line-height: 1.3; }
+  .fact-sub { margin-top: 3px; color: #4d4944; font-size: 13px; line-height: 1.35; }
+
+  /* ============ SECTIONS ============ */
+  section { padding: 74px 5.8vw; }
+  .section-head { text-align: center; margin: 0 auto 36px; max-width: 720px; }
+  .section-head h2 {
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: -.035em;
+  }
+  .section-head p {
+    margin: 13px auto 0;
+    color: #625c54;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+  .card {
+    background: rgba(251, 248, 243, .78);
+    border: 1px solid rgba(36, 31, 26, .08);
+    border-radius: 12px;
+    box-shadow: 0 18px 46px rgba(52, 41, 28, .07);
+    text-align: left;
+    padding: 32px;
+    min-height: 210px;
+    display: flex;
+    flex-direction: column;
+    transition: transform .25s, box-shadow .25s;
+  }
+  .card:hover { transform: translateY(-3px); box-shadow: 0 24px 56px rgba(52, 41, 28, .12); }
+  .card h3 {
+    margin: 0 0 18px;
+    font-size: 22px;
+    line-height: 1.25;
+    font-weight: 500;
+    letter-spacing: -.025em;
+  }
+  .card p { margin: 0; color: #3d3934; font-size: 15px; line-height: 1.65; }
+  .small-note {
+    margin-top: 18px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: #7a7167;
+  }
+
+  /* ============ GALLERY ============ */
+  .gallery { padding-top: 22px; }
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: 1.25fr .75fr;
+    gap: 18px;
+    max-width: 1360px;
+    margin: 0 auto;
+    grid-auto-rows: minmax(0, auto);
+  }
+  .gallery-main {
+    width: 100%; height: 100%;
+    min-height: 520px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 18px 46px rgba(52, 41, 28, .08);
+    cursor: zoom-in;
+    transition: transform .8s;
+  }
+  .gallery-stack {
+    display: grid;
+    grid-template-rows: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 18px;
+    height: 100%;
+  }
+  .gallery-stack img {
+    width: 100%; height: 100%;
+    min-height: 0;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 18px 46px rgba(52, 41, 28, .08);
+    cursor: zoom-in;
+    transition: transform .8s;
+  }
+  .gallery-row {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    height: 340px;
+  }
+  .gallery-row img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 18px 46px rgba(52, 41, 28, .08);
+    cursor: zoom-in;
+    transition: transform .8s;
+  }
+  .gallery-main:hover, .gallery-stack img:hover, .gallery-row img:hover {
+    transform: scale(1.015);
+  }
+
+  /* ============ LIGHTBOX ============ */
+  .lightbox {
+    position: fixed; inset: 0;
+    background: rgba(32, 29, 25, .94);
+    z-index: 80;
+    display: none;
+    align-items: center; justify-content: center;
+    padding: 32px;
+    cursor: zoom-out;
+  }
+  .lightbox.open { display: flex; animation: lbFade .3s ease; }
+  @keyframes lbFade { from { opacity: 0; } to { opacity: 1; } }
+  .lightbox img {
+    max-width: 95vw; max-height: 88vh;
+    object-fit: contain;
+    border-radius: 12px;
+  }
+  .lightbox-close, .lightbox-nav {
+    position: absolute;
+    color: var(--paper);
+    border: 1px solid rgba(247, 242, 234, .22);
+    background: rgba(32, 29, 25, .55);
+    border-radius: 7px;
+  }
+  .lightbox-close {
+    top: 24px; right: 28px;
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    padding: 10px 16px;
+  }
+  .lightbox-nav {
+    top: 50%; transform: translateY(-50%);
+    width: 48px; height: 48px;
+    display: grid; place-items: center;
+    font-size: 22px;
+  }
+  .lightbox-prev { left: 24px; }
+  .lightbox-next { right: 24px; }
+  .lightbox-counter {
+    position: absolute;
+    bottom: 28px; left: 50%; transform: translateX(-50%);
+    color: rgba(247, 242, 234, .65);
+    font-size: 11px;
+    letter-spacing: .2em;
+  }
+
+  /* ============ LOCATION ============ */
+  .location {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: stretch;
+  }
+  .location-text h2 {
+    text-align: left;
+    margin: 0 0 18px;
+    font-size: 34px;
+    font-weight: 500;
+    letter-spacing: -.04em;
+  }
+  .location-text p {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #4e4943;
+    margin: 0 0 14px;
+  }
+  .location-address {
+    margin-top: 22px;
+    padding: 16px 0;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--text);
+    max-width: 360px;
+  }
+  .pois { margin-top: 22px; list-style: none; padding: 0; }
+  .poi {
+    display: grid;
+    grid-template-columns: 28px 1fr auto;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .poi-icon { width: 28px; height: 28px; color: var(--accent-dark); display: grid; place-items: center; }
+  .poi-icon svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+  .poi-name { font-size: 15px; color: var(--text); }
+  .poi-dist { font-size: 13px; color: var(--muted); }
+
+  .map-wrap {
+    position: relative;
+    min-height: 460px;
+    height: 100%;
+    border-radius: 14px;
+    border: 1px solid rgba(36, 31, 26, .08);
+    background: linear-gradient(135deg, #ddd4c8, #f7f1e8);
+    overflow: hidden;
+  }
+  .map-wrap iframe {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    border: 0;
+    filter: grayscale(.8) contrast(.95);
+  }
+  .map-consent {
+    position: absolute; inset: 0;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    gap: 16px;
+    padding: 30px;
+    text-align: center;
+    color: #51493f;
+    background: linear-gradient(135deg, #ddd4c8, #f7f1e8);
+    z-index: 3;
+  }
+  .map-consent.hidden { display: none; }
+  .map-consent .map-icon {
+    width: 44px; height: 44px;
+    color: var(--accent-dark);
+    display: grid; place-items: center;
+    background: rgba(255,255,255,.55);
+    border: 1px solid rgba(36, 31, 26, .12);
+    border-radius: 8px;
+  }
+  .map-consent .map-icon svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.5; }
+  .map-consent .addr { font-size: 17px; font-weight: 500; color: var(--text); line-height: 1.4; }
+  .map-consent .note { font-size: 12.5px; color: var(--muted); line-height: 1.55; max-width: 320px; }
+  .map-consent button.btn { margin-top: 6px; }
+
+  /* ============ CONTACT (DARK) ============ */
+  .contact {
+    background: #201d19;
+    color: #f7f2ea;
+    padding: 68px 5.8vw;
+  }
+  .contact-inner {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
+  }
+  .contact h2 { font-size: 34px; margin: 0 0 12px; font-weight: 500; letter-spacing: -.04em; }
+  .contact p { margin: 0 0 18px; color: rgba(247, 242, 234, .68); line-height: 1.7; font-size: 15px; }
+  .contact-info {
+    display: flex; flex-direction: column;
+    margin-top: 26px;
+  }
+  .contact-line {
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(247, 242, 234, .12);
+    display: block;
+  }
+  .contact-line .key {
+    font-size: 11px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: rgba(247, 242, 234, .5);
+    margin-bottom: 6px;
+  }
+  .contact-line .val { font-size: 18px; color: #f7f2ea; font-weight: 500; }
+  .contact-line a:hover .val { color: #d9b88a; }
+
+  .contact-form {
+    background: rgba(247, 242, 234, .04);
+    border: 1px solid rgba(247, 242, 234, .12);
+    border-radius: 14px;
+    padding: 28px;
+  }
+  .contact-form .form-reassure {
+    font-size: 11px;
+    letter-spacing: .14em;
+    color: rgba(247, 242, 234, .7);
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .form-reassure .dot {
+    width: 6px; height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+  .field {
+    border-bottom: 1px solid rgba(247, 242, 234, .14);
+    padding: 18px 0 12px;
+    transition: border-color .25s;
+  }
+  .field:focus-within { border-bottom-color: var(--accent); }
+  .field label {
+    display: block;
+    font-size: 10px;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: rgba(247, 242, 234, .55);
+    margin-bottom: 8px;
+  }
+  .field input, .field select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    color: #f7f2ea;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 0;
+    outline: none;
+  }
+  .field input::placeholder { color: rgba(247, 242, 234, .35); }
+  .field select { appearance: none; -webkit-appearance: none; background-image: linear-gradient(45deg, transparent 50%, #f7f2ea 50%), linear-gradient(135deg, #f7f2ea 50%, transparent 50%); background-position: calc(100% - 14px) center, calc(100% - 8px) center; background-size: 6px 6px, 6px 6px; background-repeat: no-repeat; padding-right: 28px; cursor: pointer; }
+  .field select option { background: #201d19; color: #f7f2ea; }
+  .field-error { color: #e07a5f; font-size: 11px; margin-top: 6px; min-height: 14px; }
+  .submit {
+    width: 100%;
+    margin-top: 22px;
+    height: 48px;
+    background: var(--accent);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    border-radius: 7px;
+    display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+    transition: background .2s;
+  }
+  .submit:hover { background: var(--accent-dark); }
+  .submit:disabled { opacity: .5; cursor: not-allowed; }
+  .gdpr-consent {
+    margin: 14px 0 0;
+    font-size: 11.5px;
+    line-height: 1.5;
+    color: rgba(247, 242, 234, .5);
+  }
+  .gdpr-consent a { color: rgba(247, 242, 234, .8); text-decoration: underline; text-decoration-color: rgba(247, 242, 234, .25); }
+  .form-success {
+    margin-top: 22px;
+    padding: 18px;
+    border: 1px solid rgba(247, 242, 234, .25);
+    background: rgba(247, 242, 234, .04);
+    border-radius: 8px;
+    display: none;
+  }
+  .form-success.show { display: block; }
+  .form-success .title { font-size: 17px; color: #f7f2ea; margin-bottom: 6px; font-weight: 500; }
+  .form-success .body { color: rgba(247, 242, 234, .7); font-size: 14px; }
+
+  /* ============ FOOTER ============ */
+  footer.foot {
+    background: #181612;
+    color: rgba(247, 242, 234, .55);
+    padding: 36px 5.8vw 24px;
+    font-size: 12.5px;
+  }
+  .foot-inner {
+    max-width: 1360px; margin: 0 auto;
+    display: flex; flex-wrap: wrap;
+    gap: 24px; justify-content: space-between; align-items: center;
+  }
+  .foot-inner a { color: rgba(247, 242, 234, .75); }
+  .foot-inner a:hover { color: #d9b88a; }
+  .foot-legal { margin-top: 14px; max-width: 720px; line-height: 1.55; color: rgba(247, 242, 234, .35); }
+
+  /* ============ WA FAB ============ */
+  .wa-fab {
+    position: fixed;
+    right: 22px; bottom: 22px;
+    z-index: 60;
+    width: 54px; height: 54px;
+    background: #2BB44A;
+    color: #fff;
+    border-radius: 50%;
+    display: grid; place-items: center;
+    box-shadow: 0 12px 30px rgba(32, 29, 25, .25);
+    transition: transform .2s;
+  }
+  .wa-fab:hover { transform: scale(1.06); }
+  .wa-fab svg { width: 26px; height: 26px; }
+
+  /* ============ SCROLL REVEAL ============ */
+  [data-reveal] {
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity .8s ease, transform .8s cubic-bezier(.22, .61, .36, 1);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+  [data-reveal].in { opacity: 1; transform: none; }
+  body.no-anim [data-reveal] { opacity: 1; transform: none; transition: none; }
+  .hero [data-reveal] { opacity: 1; transform: none; }
+
+  /* ============ RESPONSIVE ============ */
+  /* ============ FLOOR PLANS ============ */
+  .plans-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+    max-width: 1360px;
+    margin: 0 auto;
+  }
+  .plan-card {
+    background: rgba(251, 248, 243, .78);
+    border: 1px solid rgba(36, 31, 26, .08);
+    border-radius: 12px;
+    box-shadow: 0 18px 46px rgba(52, 41, 28, .07);
+    overflow: hidden;
+    transition: transform .25s, box-shadow .25s;
+  }
+  .plan-card:hover { transform: translateY(-3px); box-shadow: 0 24px 56px rgba(52, 41, 28, .12); }
+  .plan-svg-wrap {
+    background: #f5f1ea;
+    border-bottom: 1px solid rgba(36, 31, 26, .06);
+    padding: 0;
+    line-height: 0;
+  }
+  .plan-svg-wrap svg { width: 100%; height: auto; display: block; }
+  .plan-card-info {
+    padding: 22px 26px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .plan-type {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -.02em;
+    color: var(--text);
+  }
+  .plan-meta {
+    font-size: 13px;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  @media (max-width: 760px) {
+    .plans-grid { grid-template-columns: 1fr; }
+  }
+
+  @media (max-width: 1100px) {
+    .nav-links { gap: 22px; }
+    .phone { display: none; }
+    .hero { grid-template-columns: 1fr; padding-right: 5.8vw; }
+    .hero-bg { width: 100%; opacity: .5; }
+    .hero::before { background: linear-gradient(90deg, rgba(248,244,238,1), rgba(248,244,238,.82)); }
+    .facts { grid-template-columns: repeat(2, 1fr); }
+    .cards { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr; }
+    .gallery-row { grid-template-columns: 1fr; height: auto; }
+    .gallery-row img { height: 320px; }
+    .gallery-main { min-height: 360px; }
+    .location { grid-template-columns: 1fr; }
+    .contact-inner { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 760px) {
+    .navbar { height: auto; padding: 22px; gap: 18px; flex-wrap: wrap; }
+    .brand { min-width: 0; }
+    .nav-links { order: 3; width: 100%; gap: 22px; overflow-x: auto; padding-bottom: 4px; }
+    .nav-cta { display: none; }
+    .nav-right { min-width: 0; }
+    .hero { min-height: 620px; padding: 0 22px; }
+    .hero-copy { padding-top: 70px; }
+    .hero-actions { flex-direction: column; align-items: stretch; }
+    .btn { width: 100%; }
+    .facts { width: calc(100% - 44px); grid-template-columns: 1fr; }
+    .fact:not(:last-child)::after { display: none; }
+    .fact { border-bottom: 1px solid var(--line); }
+    section { padding-left: 22px; padding-right: 22px; }
+    .contact { padding: 56px 22px; }
+  }
+</style>
+</head>
+<body>
+
+<main class="page">
+
+  <header class="navbar">
+    <div class="brand">
+      <div>
+        <div class="brand-name">Prundu</div>
+        <div class="brand-sub">Residence</div>
+      </div>
+    </div>
+    <nav class="nav-links" aria-label="Navigație principală">
+      <a href="#apartamente">Apartamente</a>
+      <a href="#planuri">Planuri</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#localizare">Localizare</a>
+      <a href="#despre">Despre proiect</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <a href="tel:+40751234567" class="phone">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.37 1.9.72 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.35 1.85.59 2.81.72A2 2 0 0 1 22 16.92z"/></svg>
+        +40 751 234 567
+      </a>
+      <a class="btn nav-cta" href="#contact">Cere detalii</a>
+    </div>
+  </header>
+
+  <section class="hero" data-screen-label="01 Hero">
+    <div class="hero-bg" aria-hidden="true">
+      <img src="renders/render-hero-2.jpg" alt="Prundu Residence — randare exterioară" id="heroImg" fetchpriority="high" />
+    </div>
+    <div class="hero-copy">
+      <div class="eyebrow" data-reveal>Str. Cornel Chiriac 20, Pitești</div>
+      <h1 data-reveal>Un proiect rezidențial construit pentru ritmul real al orașului.</h1>
+      <p class="hero-text" data-reveal>Garsoniere și apartamente cu 2 camere, proiectate eficient, pentru stiluri diferite de locuire.</p>
+      <div class="hero-actions" data-reveal>
+        <a class="btn btn-primary" href="#apartamente">Vezi apartamentele →</a>
+        <a class="btn btn-secondary" href="#contact">Cere disponibilitate</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="facts" aria-label="Detalii proiect">
+    <div class="fact">
+      <div class="fact-icon">
+        <svg viewBox="0 0 32 32"><rect x="6" y="4" width="20" height="24"/><path d="M6 10h20M6 16h20M6 22h20"/><path d="M11 10v18M16 10v18M21 10v18"/></svg>
+      </div>
+      <div class="fact-text">
+        <div class="fact-title">Bloc rezidențial</div>
+        <div class="fact-sub">P+4</div>
+      </div>
+    </div>
+    <div class="fact">
+      <div class="fact-icon">
+        <svg viewBox="0 0 32 32"><rect x="4" y="4" width="24" height="24"/><path d="M16 4v24M4 16h24"/></svg>
+      </div>
+      <div class="fact-text">
+        <div class="fact-title">Garsoniere și</div>
+        <div class="fact-sub">apartamente cu 2 camere</div>
+      </div>
+    </div>
+    <div class="fact">
+      <div class="fact-icon">
+        <svg viewBox="0 0 32 32"><rect x="4" y="6" width="24" height="22" rx="2"/><path d="M4 12h24M10 4v4M22 4v4"/></svg>
+      </div>
+      <div class="fact-text">
+        <div class="fact-title">Predare estimată</div>
+        <div class="fact-sub">mai 2027</div>
+      </div>
+    </div>
+    <div class="fact">
+      <div class="fact-icon">
+        <svg viewBox="0 0 32 32"><path d="M4 18v-3l3-7a2 2 0 0 1 2-1h14a2 2 0 0 1 2 1l3 7v3"/><circle cx="9" cy="22" r="3"/><circle cx="23" cy="22" r="3"/><path d="M4 18h24"/></svg>
+      </div>
+      <div class="fact-text">
+        <div class="fact-title">Parcare disponibilă</div>
+        <div class="fact-sub">în funcție de disponibilitate</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="apartamente" data-screen-label="02 Apartamente">
+    <div class="section-head">
+      <h2 data-reveal>Apartamente disponibile</h2>
+      <p data-reveal>Compartimentări gândite eficient, cu spații luminoase și funcționale.</p>
+    </div>
+    <div class="cards">
+      <article class="card" data-reveal>
+        <h3>Garsoniere</h3>
+        <p>Soluții compacte pentru locuire practică, cu suprafețe utile începând de la 32 m².</p>
+        <div class="small-note">Planurile apartamentelor vor fi disponibile în curând.</div>
+      </article>
+      <article class="card" data-reveal style="--reveal-delay:100ms">
+        <h3>Apartamente cu 2 camere</h3>
+        <p>Compartimentări clare pentru cupluri, familii tinere sau investiție, cu suprafețe utile începând de la 50 m².</p>
+        <div class="small-note">Detaliile de disponibilitate se confirmă la cerere.</div>
+      </article>
+      <article class="card" data-reveal style="--reveal-delay:200ms">
+        <h3>Spații comerciale</h3>
+        <p>Spații la parterul blocului, cu acces direct din zona de circulație și vizibilitate bună.</p>
+        <div class="small-note">Potrivite pentru servicii locale și activități de proximitate.</div>
+      </article>
+    </div>
+  </section>
+
+  <section id="planuri" data-screen-label="03 Planuri">
+    <div class="section-head">
+      <h2 data-reveal>Planurile apartamentelor</h2>
+      <p data-reveal>Compartimentări optimizate pentru viața de zi cu zi — spații funcționale, luminoase și ușor de mobilat.</p>
+    </div>
+    <div class="plans-grid">
+
+      <!-- GARSONIERĂ -->
+      <div class="plan-card" data-reveal>
+        <div class="plan-svg-wrap">
+          <svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+            <rect width="420" height="300" fill="#f5f1ea"/>
+            <!-- outer walls -->
+            <rect x="55" y="52" width="260" height="196" fill="#2a2724"/>
+            <!-- living / dormitor -->
+            <rect x="63" y="60" width="148" height="180" fill="#ede8e0"/>
+            <!-- baie -->
+            <rect x="219" y="60" width="88" height="85" fill="#d8d3cb"/>
+            <!-- bucătărie -->
+            <rect x="219" y="153" width="88" height="87" fill="#e3ddd5"/>
+            <!-- balcon (dashed) -->
+            <rect x="73" y="28" width="120" height="24" fill="#e6e1d8" stroke="#2a2724" stroke-width="1.5" stroke-dasharray="5,3"/>
+            <!-- door gap living→balcon -->
+            <rect x="93" y="52" width="60" height="8" fill="#ede8e0"/>
+            <!-- entry door gap bottom -->
+            <rect x="100" y="240" width="44" height="8" fill="#ede8e0"/>
+            <!-- room labels -->
+            <text x="137" y="146" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#4a4540" font-weight="600">LIVING /</text>
+            <text x="137" y="161" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#4a4540" font-weight="600">DORMITOR</text>
+            <text x="263" y="104" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">BAIE</text>
+            <text x="263" y="195" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">BUCĂTĂRIE</text>
+            <text x="133" y="44" text-anchor="middle" font-size="8.5" letter-spacing="1" fill="#7a7268">BALCON</text>
+            <!-- compass -->
+            <g transform="translate(388,275)">
+              <circle r="10" fill="none" stroke="#c0b8ae" stroke-width="1"/>
+              <text y="4" text-anchor="middle" font-size="9" fill="#9d7b57" font-weight="700">N</text>
+            </g>
+            <!-- scale bar -->
+            <line x1="60" y1="278" x2="155" y2="278" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="60" y1="274" x2="60" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="107" y1="274" x2="107" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="155" y1="274" x2="155" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <text x="107" y="292" text-anchor="middle" font-size="7.5" fill="#b0a89e" letter-spacing="0.5">0 · 3 · 6 m</text>
+          </svg>
+        </div>
+        <div class="plan-card-info">
+          <div class="plan-type">Garsonieră</div>
+          <div class="plan-meta">~34 m² · P–E4</div>
+        </div>
+      </div>
+
+      <!-- 2 CAMERE TIP A -->
+      <div class="plan-card" data-reveal style="--reveal-delay:100ms">
+        <div class="plan-svg-wrap">
+          <svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+            <rect width="420" height="300" fill="#f5f1ea"/>
+            <!-- outer walls -->
+            <rect x="30" y="52" width="360" height="196" fill="#2a2724"/>
+            <!-- living (left) -->
+            <rect x="38" y="60" width="162" height="180" fill="#ede8e0"/>
+            <!-- dormitor (bottom right) -->
+            <rect x="208" y="148" width="174" height="92" fill="#e6e1d8"/>
+            <!-- baie (top right, left part) -->
+            <rect x="208" y="60" width="92" height="80" fill="#d8d3cb"/>
+            <!-- hol (top right, right part) -->
+            <rect x="308" y="60" width="74" height="80" fill="#eae5de"/>
+            <!-- balcon living -->
+            <rect x="48" y="28" width="130" height="24" fill="#e6e1d8" stroke="#2a2724" stroke-width="1.5" stroke-dasharray="5,3"/>
+            <!-- door gap living→balcon -->
+            <rect x="72" y="52" width="60" height="8" fill="#ede8e0"/>
+            <!-- entry door gap -->
+            <rect x="328" y="232" width="44" height="8" fill="#eae5de" transform="rotate(0)"/>
+            <!-- room labels -->
+            <text x="119" y="146" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#4a4540" font-weight="600">LIVING</text>
+            <text x="295" y="199" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#4a4540" font-weight="600">DORMITOR</text>
+            <text x="254" y="102" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">BAIE</text>
+            <text x="345" y="102" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">HOL</text>
+            <text x="113" y="44" text-anchor="middle" font-size="8.5" letter-spacing="1" fill="#7a7268">BALCON</text>
+            <!-- compass -->
+            <g transform="translate(388,275)">
+              <circle r="10" fill="none" stroke="#c0b8ae" stroke-width="1"/>
+              <text y="4" text-anchor="middle" font-size="9" fill="#9d7b57" font-weight="700">N</text>
+            </g>
+            <!-- scale bar -->
+            <line x1="35" y1="278" x2="130" y2="278" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="35" y1="274" x2="35" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="82" y1="274" x2="82" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="130" y1="274" x2="130" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <text x="82" y="292" text-anchor="middle" font-size="7.5" fill="#b0a89e" letter-spacing="0.5">0 · 3 · 6 m</text>
+          </svg>
+        </div>
+        <div class="plan-card-info">
+          <div class="plan-type">2 Camere · Tip A</div>
+          <div class="plan-meta">~52 m² · P–E4</div>
+        </div>
+      </div>
+
+      <!-- 2 CAMERE TIP B -->
+      <div class="plan-card" data-reveal style="--reveal-delay:160ms">
+        <div class="plan-svg-wrap">
+          <svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+            <rect width="420" height="300" fill="#f5f1ea"/>
+            <!-- outer walls -->
+            <rect x="30" y="52" width="360" height="196" fill="#2a2724"/>
+            <!-- living (top left) -->
+            <rect x="38" y="60" width="158" height="108" fill="#ede8e0"/>
+            <!-- bucătărie (bottom left) -->
+            <rect x="38" y="176" width="158" height="64" fill="#e3ddd5"/>
+            <!-- dormitor (right, full height) -->
+            <rect x="204" y="60" width="110" height="180" fill="#e6e1d8"/>
+            <!-- baie (top far right) -->
+            <rect x="322" y="60" width="60" height="90" fill="#d8d3cb"/>
+            <!-- hol (bottom far right) -->
+            <rect x="322" y="158" width="60" height="82" fill="#eae5de"/>
+            <!-- balcon from living -->
+            <rect x="48" y="28" width="118" height="24" fill="#e6e1d8" stroke="#2a2724" stroke-width="1.5" stroke-dasharray="5,3"/>
+            <!-- door gaps -->
+            <rect x="68" y="52" width="56" height="8" fill="#ede8e0"/>
+            <!-- entry right side -->
+            <rect x="322" y="230" width="44" height="8" fill="#eae5de"/>
+            <!-- room labels -->
+            <text x="117" y="111" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#4a4540" font-weight="600">LIVING</text>
+            <text x="117" y="211" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">BUCĂTĂRIE</text>
+            <text x="259" y="148" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#4a4540" font-weight="600">DORMITOR</text>
+            <text x="352" y="107" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">BAIE</text>
+            <text x="352" y="200" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">HOL</text>
+            <text x="107" y="44" text-anchor="middle" font-size="8.5" letter-spacing="1" fill="#7a7268">BALCON</text>
+            <!-- compass -->
+            <g transform="translate(388,275)">
+              <circle r="10" fill="none" stroke="#c0b8ae" stroke-width="1"/>
+              <text y="4" text-anchor="middle" font-size="9" fill="#9d7b57" font-weight="700">N</text>
+            </g>
+            <line x1="35" y1="278" x2="130" y2="278" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="35" y1="274" x2="35" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="82" y1="274" x2="82" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="130" y1="274" x2="130" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <text x="82" y="292" text-anchor="middle" font-size="7.5" fill="#b0a89e" letter-spacing="0.5">0 · 3 · 6 m</text>
+          </svg>
+        </div>
+        <div class="plan-card-info">
+          <div class="plan-type">2 Camere · Tip B</div>
+          <div class="plan-meta">~55 m² · P–E4</div>
+        </div>
+      </div>
+
+      <!-- 2 CAMERE TIP C -->
+      <div class="plan-card" data-reveal style="--reveal-delay:240ms">
+        <div class="plan-svg-wrap">
+          <svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" font-family="system-ui,-apple-system,sans-serif">
+            <rect width="420" height="300" fill="#f5f1ea"/>
+            <!-- outer walls -->
+            <rect x="25" y="52" width="370" height="196" fill="#2a2724"/>
+            <!-- dormitor (left strip) -->
+            <rect x="33" y="60" width="118" height="180" fill="#e6e1d8"/>
+            <!-- living (center, large) -->
+            <rect x="159" y="60" width="148" height="180" fill="#ede8e0"/>
+            <!-- baie (top right strip) -->
+            <rect x="315" y="60" width="72" height="86" fill="#d8d3cb"/>
+            <!-- bucătărie (bottom right strip) -->
+            <rect x="315" y="154" width="72" height="86" fill="#e3ddd5"/>
+            <!-- balcon from living (top) -->
+            <rect x="169" y="28" width="128" height="24" fill="#e6e1d8" stroke="#2a2724" stroke-width="1.5" stroke-dasharray="5,3"/>
+            <!-- door living→balcon -->
+            <rect x="195" y="52" width="60" height="8" fill="#ede8e0"/>
+            <!-- entry door (bottom of dormitor) -->
+            <rect x="50" y="240" width="44" height="8" fill="#e6e1d8"/>
+            <!-- room labels -->
+            <text x="92" y="148" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#4a4540" font-weight="600">DORMITOR</text>
+            <text x="233" y="148" text-anchor="middle" font-size="10" letter-spacing="1.2" fill="#4a4540" font-weight="600">LIVING</text>
+            <text x="351" y="104" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">BAIE</text>
+            <text x="351" y="198" text-anchor="middle" font-size="9" letter-spacing="1" fill="#4a4540">BUCĂTĂRIE</text>
+            <text x="233" y="44" text-anchor="middle" font-size="8.5" letter-spacing="1" fill="#7a7268">BALCON</text>
+            <!-- compass -->
+            <g transform="translate(393,275)">
+              <circle r="10" fill="none" stroke="#c0b8ae" stroke-width="1"/>
+              <text y="4" text-anchor="middle" font-size="9" fill="#9d7b57" font-weight="700">N</text>
+            </g>
+            <line x1="30" y1="278" x2="125" y2="278" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="30" y1="274" x2="30" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="77" y1="274" x2="77" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <line x1="125" y1="274" x2="125" y2="282" stroke="#c0b8ae" stroke-width="1"/>
+            <text x="77" y="292" text-anchor="middle" font-size="7.5" fill="#b0a89e" letter-spacing="0.5">0 · 3 · 6 m</text>
+          </svg>
+        </div>
+        <div class="plan-card-info">
+          <div class="plan-type">2 Camere · Tip C</div>
+          <div class="plan-meta">~58 m² · P–E4</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="gallery" id="galerie" data-screen-label="04 Galerie">
+    <div class="section-head">
+      <h2 data-reveal>Randări ale proiectului</h2>
+      <p data-reveal>Imagini de prezentare ale ansamblului, cu fațadele, parcările și spațiile exterioare.</p>
+    </div>
+    <div class="gallery-grid">
+      <img class="gallery-main" src="renders/render-hero-3.jpg" alt="Randare ansamblu Prundu Residence" data-zoom="renders/render-hero-3.jpg" loading="lazy" />
+      <div class="gallery-stack">
+        <img src="renders/render-hero-1.jpg" alt="Randare laterală Prundu Residence" data-zoom="renders/render-hero-1.jpg" loading="lazy" />
+        <img src="renders/render-curte.jpg" alt="Randare spațiu exterior Prundu Residence" data-zoom="renders/render-curte.jpg" loading="lazy" />
+      </div>
+      <div class="gallery-row">
+        <img src="renders/render-fata.jpg" alt="Randare frontală Prundu Residence" data-zoom="renders/render-fata.jpg" loading="lazy" />
+        <img src="renders/render-hero-2.jpg" alt="Randare acces Prundu Residence" data-zoom="renders/render-hero-2.jpg" loading="lazy" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Închide">Închide · Esc</button>
+    <button class="lightbox-nav lightbox-prev" aria-label="Anterior">←</button>
+    <img id="lightboxImg" alt="" />
+    <button class="lightbox-nav lightbox-next" aria-label="Următor">→</button>
+    <div class="lightbox-counter"><b id="lbIdx">1</b> / <span id="lbTotal">5</span></div>
+  </div>
+
+  <section id="despre" data-screen-label="04 Despre proiect">
+    <div class="section-head">
+      <h2 data-reveal>Despre proiect</h2>
+      <p data-reveal>Un ansamblu gândit fără limbaj inutil de lux: locuire urbană, spații eficiente, acces simplu și o imagine arhitecturală curată.</p>
+    </div>
+    <div class="cards">
+      <article class="card" data-reveal>
+        <h3>Arhitectură contemporană</h3>
+        <p>Fațade clare, volume echilibrate și o expresie vizuală actuală, potrivită pentru un proiect rezidențial local.</p>
+      </article>
+      <article class="card" data-reveal style="--reveal-delay:100ms">
+        <h3>Locuire practică</h3>
+        <p>Apartamentele sunt gândite pentru utilizare reală: spații ușor de mobilat, lumină naturală și circulații simple.</p>
+      </article>
+      <article class="card" data-reveal style="--reveal-delay:200ms">
+        <h3>Informații directe</h3>
+        <p>Prezentarea proiectului rămâne concretă: tipuri de apartamente, localizare, predare și disponibilitate.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="localizare" data-screen-label="05 Localizare">
+    <div class="location">
+      <div class="location-text">
+        <h2 data-reveal>Localizare</h2>
+        <p data-reveal>Prundu Residence este situat pe Strada Cornel Chiriac nr. 20, în Pitești. Poziționarea proiectului urmărește o locuire conectată la ritmul orașului, fără promisiuni exagerate și fără formulări artificiale.</p>
+        <div class="location-address" data-reveal>
+          <strong>Str. Cornel Chiriac, nr. 20</strong><br/>
+          Cartierul Prundu · Pitești, jud. Argeș
+        </div>
+        <ul class="pois" data-reveal>
+          <li class="poi">
+            <span class="poi-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></span>
+            <span class="poi-name">Centrul Piteștiului</span>
+            <span class="poi-dist">~ 8 min cu mașina</span>
+          </li>
+          <li class="poi">
+            <span class="poi-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-5 9 5-9 5-9-5z"/><path d="M5 11v6c0 1 3 3 7 3s7-2 7-3v-6"/></svg></span>
+            <span class="poi-name">Școli și grădinițe</span>
+            <span class="poi-dist">~ 5 min</span>
+          </li>
+          <li class="poi">
+            <span class="poi-icon"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1.5 11h-11L5 8z"/><path d="M9 8V5a3 3 0 0 1 6 0v3"/></svg></span>
+            <span class="poi-name">Supermarket și farmacie</span>
+            <span class="poi-dist">~ 3 min pe jos</span>
+          </li>
+          <li class="poi">
+            <span class="poi-icon"><svg viewBox="0 0 24 24"><path d="M3 18l5-12h8l5 12"/><path d="M3 18h18"/><path d="M9 14h6"/></svg></span>
+            <span class="poi-name">Acces A1</span>
+            <span class="poi-dist">~ 10 min</span>
+          </li>
+        </ul>
+      </div>
+      <div class="map-wrap" data-reveal>
+        <div class="map-consent" id="mapConsent">
+          <div class="map-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <path d="M12 22s8-7.5 8-13a8 8 0 1 0-16 0c0 5.5 8 13 8 13z"/>
+              <circle cx="12" cy="9" r="3"/>
+            </svg>
+          </div>
+          <div class="addr">Str. Cornel Chiriac 20<br/>Pitești, Argeș</div>
+          <div class="note">Harta este încărcată de Google. Click pentru a activa — vor fi setate cookie-uri Google.</div>
+          <button type="button" id="mapActivate" class="btn btn-primary" style="min-width:0;">Activează harta →</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact" data-screen-label="06 Contact">
+    <div class="contact-inner">
+      <div>
+        <h2 data-reveal>Cere detalii despre disponibilitate</h2>
+        <p data-reveal>Pentru suprafețe, prețuri, locuri de parcare și stadiul proiectului, cere informații actualizate direct de la echipa de vânzări.</p>
+        <div class="contact-info" data-reveal>
+          <a class="contact-line" href="tel:+40751234567">
+            <div class="key">Telefon</div>
+            <div class="val">+40 751 234 567</div>
+          </a>
+          <a class="contact-line" href="mailto:Vanzari@prunduresidence.ro">
+            <div class="key">Email</div>
+            <div class="val">Vanzari@prunduresidence.ro</div>
+          </a>
+          <div class="contact-line">
+            <div class="key">Birou vânzări</div>
+            <div class="val">Luni–Vineri · 09:00–18:00</div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="leadForm" data-reveal novalidate>
+        <div class="form-reassure">
+          <span class="dot"></span>
+          Răspuns în 24h lucrătoare
+        </div>
+        <div class="field">
+          <label for="f-name">01 · Nume</label>
+          <input id="f-name" name="name" type="text" placeholder="Numele dvs." autocomplete="name" required />
+          <div class="field-error" data-err="name"></div>
+        </div>
+        <div class="field">
+          <label for="f-phone">02 · Telefon</label>
+          <input id="f-phone" name="phone" type="tel" placeholder="07xx xxx xxx" autocomplete="tel" required />
+          <div class="field-error" data-err="phone"></div>
+        </div>
+        <div class="field">
+          <label for="f-type">03 · Vă interesează</label>
+          <select id="f-type" name="type" required>
+            <option value="" disabled selected>Selectați…</option>
+            <option value="garsoniera">Garsonieră</option>
+            <option value="2camere">Apartament 2 camere</option>
+            <option value="comercial">Spațiu comercial parter</option>
+            <option value="vizionare">Vizionare pe șantier</option>
+          </select>
+          <div class="field-error" data-err="type"></div>
+        </div>
+
+        <button type="submit" class="submit">Trimite cererea →</button>
+
+        <p class="gdpr-consent">
+          Prin trimiterea formularului, sunteți de acord cu prelucrarea datelor în scopul contactării. <a href="#">Politica de confidențialitate</a>.
+        </p>
+
+        <div class="form-success" id="formSuccess">
+          <div class="title">Mulțumim, <span id="successName"></span>.</div>
+          <div class="body">Un membru al echipei vă contactează în 24 de ore lucrătoare.</div>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <div class="foot-inner">
+      <div>
+        <strong style="color: rgba(247,242,234,.85); letter-spacing: .1em;">PRUNDU RESIDENCE</strong>
+        <span style="margin-left: 16px; color: rgba(247,242,234,.5);">Str. Cornel Chiriac 20, Pitești · Argeș</span>
+      </div>
+      <div style="display:flex; gap: 24px;">
+        <a href="tel:+40751234567">+40 751 234 567</a>
+        <a href="mailto:Vanzari@prunduresidence.ro">Vanzari@prunduresidence.ro</a>
+      </div>
+    </div>
+    <div class="foot-inner foot-legal" style="border-top: 1px solid rgba(247,242,234,.08); padding-top: 18px; margin-top: 18px;">
+      Prețurile sunt exprimate în Euro, fără TVA, și pot fi actualizate în funcție de stadiul construcției. Randările arhitecturale sunt orientative — detaliile finale se stabilesc la execuție. © 2026 Prundu Residence.
+    </div>
+  </footer>
+
+</main>
+
+<a class="wa-fab" href="https://wa.me/40751234567" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.4.7 4.6 1.8 6.5L3 29l6.7-1.8c1.8 1 3.9 1.5 6.3 1.5 7.2 0 13-5.8 13-13S23.2 3 16 3zm0 23.5c-2 0-3.8-.5-5.4-1.4l-.4-.2-4 1.1 1.1-3.9-.3-.4A10.5 10.5 0 0 1 5.5 16C5.5 10.2 10.2 5.5 16 5.5S26.5 10.2 26.5 16 21.8 26.5 16 26.5zm6-7.9c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4 0 1.4 1 2.7 1.2 2.9.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.3.2-1.5-.1-.1-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script>
+(function () {
+  function applyTweaks(t) {
+    if (t.accent) {
+      document.documentElement.style.setProperty('--accent', t.accent);
+    }
+    if (t.heroImage) {
+      const img = document.getElementById('heroImg');
+      if (img && img.getAttribute('src') !== t.heroImage) img.src = t.heroImage;
+    }
+    document.body.classList.toggle('no-anim', !t.scrollAnim);
+  }
+  applyTweaks(window.__TWEAKS);
+  window.__applyTweaks = applyTweaks;
+
+  // Scroll reveal
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+
+  // Form
+  const form = document.getElementById('leadForm');
+  const success = document.getElementById('formSuccess');
+  const successName = document.getElementById('successName');
+  function setError(name, msg) { const el = form.querySelector(`[data-err="${name}"]`); if (el) el.textContent = msg || ''; }
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let ok = true;
+    const name = form.name.value.trim();
+    const phone = form.phone.value.trim();
+    const type = form.type.value;
+    setError('name'); setError('phone'); setError('type');
+    if (name.length < 2) { setError('name', 'Introduceți numele'); ok = false; }
+    const phoneClean = phone.replace(/\s|-|\./g, '');
+    if (!/^(\+?40|0)7\d{8}$/.test(phoneClean)) { setError('phone', 'Telefon invalid'); ok = false; }
+    if (!type) { setError('type', 'Selectați o opțiune'); ok = false; }
+    if (!ok) return;
+    const btn = form.querySelector('.submit');
+    btn.disabled = true;
+    btn.textContent = 'Se trimite…';
+    setTimeout(() => {
+      btn.style.display = 'none';
+      successName.textContent = name.split(' ')[0];
+      success.classList.add('show');
+    }, 500);
+  });
+  ['name','phone','type'].forEach(n => {
+    const el = form.elements[n];
+    el.addEventListener('input', () => setError(n));
+    el.addEventListener('change', () => setError(n));
+  });
+
+  // Lightbox
+  const lb = document.getElementById('lightbox');
+  const lbImg = document.getElementById('lightboxImg');
+  const lbIdx = document.getElementById('lbIdx');
+  const lbTotal = document.getElementById('lbTotal');
+  const zoomables = Array.from(document.querySelectorAll('[data-zoom]'));
+  lbTotal.textContent = zoomables.length;
+  let currentIdx = 0;
+  function openLightbox(i) {
+    currentIdx = (i + zoomables.length) % zoomables.length;
+    lbImg.src = zoomables[currentIdx].getAttribute('data-zoom');
+    lbIdx.textContent = currentIdx + 1;
+    lb.classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() { lb.classList.remove('open'); document.body.style.overflow = ''; }
+  zoomables.forEach((el, i) => el.addEventListener('click', () => openLightbox(i)));
+  lb.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+  lb.addEventListener('click', (e) => { if (e.target === lb) closeLightbox(); });
+  lb.querySelector('.lightbox-prev').addEventListener('click', (e) => { e.stopPropagation(); openLightbox(currentIdx - 1); });
+  lb.querySelector('.lightbox-next').addEventListener('click', (e) => { e.stopPropagation(); openLightbox(currentIdx + 1); });
+  document.addEventListener('keydown', (e) => {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') openLightbox(currentIdx - 1);
+    if (e.key === 'ArrowRight') openLightbox(currentIdx + 1);
+  });
+
+  // Map
+  const mapConsent = document.getElementById('mapConsent');
+  const mapActivate = document.getElementById('mapActivate');
+  const mapWrap = mapConsent && mapConsent.parentElement;
+  if (mapActivate) {
+    mapActivate.addEventListener('click', () => {
+      const iframe = document.createElement('iframe');
+      iframe.src = 'https://maps.google.com/maps?q=Strada%20Cornel%20Chiriac%2020%2C%20Pitesti%2C%20Arges&t=&z=15&ie=UTF8&iwloc=&output=embed';
+      iframe.loading = 'lazy';
+      iframe.referrerPolicy = 'no-referrer-when-downgrade';
+      iframe.title = 'Hartă Prundu Residence';
+      mapWrap.appendChild(iframe);
+      mapConsent.classList.add('hidden');
+    });
+  }
+})();
+</script>
+
+<!-- Tweaks Panel -->
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script type="text/babel" src="tweaks-panel.jsx"></script>
+
+<div id="tweaks-root"></div>
+
+<script type="text/babel">
+  const { useEffect } = React;
+  function PrunduTweaks() {
+    const [t, setTweak] = useTweaks(window.__TWEAKS);
+    useEffect(() => { window.__applyTweaks(t); }, [t]);
+    return (
+      <TweaksPanel title="Tweaks">
+        <TweakSection title="Hero">
+          <TweakSelect
+            label="Fotografie"
+            value={t.heroImage}
+            options={[
+              { value: 'renders/render-hero-2.jpg', label: 'Vedere unghi (default)' },
+              { value: 'renders/render-hero-3.jpg', label: 'Vedere colț + parcare' },
+              { value: 'renders/render-hero-1.jpg', label: 'Vedere laterală' },
+              { value: 'renders/render-fata.jpg',   label: 'Față completă' },
+              { value: 'renders/render-curte.jpg',  label: 'Curte interioară' },
+            ]}
+            onChange={(v) => setTweak('heroImage', v)}
+          />
+        </TweakSection>
+
+        <TweakSection title="Brand">
+          <TweakColor
+            label="Accent"
+            value={t.accent}
+            options={['#9d7b57', '#7a5c3c', '#8C7355', '#A88B6E', '#6B5B47']}
+            onChange={(v) => setTweak('accent', v)}
+          />
+        </TweakSection>
+
+        <TweakSection title="Mișcare">
+          <TweakToggle
+            label="Animații la scroll"
+            value={t.scrollAnim}
+            onChange={(v) => setTweak('scrollAnim', v)}
+          />
+        </TweakSection>
+      </TweaksPanel>
+    );
+  }
+  const root = ReactDOM.createRoot(document.getElementById('tweaks-root'));
+  root.render(<PrunduTweaks />);
+</script>
+
+</body>
+</html>
